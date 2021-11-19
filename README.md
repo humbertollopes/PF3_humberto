@@ -11,4 +11,4 @@ Fórmula
 Exemplo 
     - (100*(((1+0,01)^120-1)/0,01)) = 23003,87
 
-<a href="https://humbertollopes.github.io/PF3_humberto/"><img src=".\calc" width="250px"></a>
+<a href="https://humbertollopes.github.io/PF3_humberto/"><img src="calc.png" width="250px"></a>
