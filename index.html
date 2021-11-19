@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POUPANÇA</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Poupança </div>
+
+        <div class="input">
+             <input placeholder="Valor aplicado mensalmente? Ex: 100" type="number" id='p' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual é a taxa de juros? Ex: 1" type="number" id='i' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual é o número de parcelas? Ex: 120"  type="number" id='n'required="required">
+        </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Melhor rendimento possível. </footer>  
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
